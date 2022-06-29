@@ -20,9 +20,13 @@ export default {
     return {
       cities: [
         { code: "Seoul", label: "서울", selected: false },
-        { code: "Tokyo", label: "도쿄", selected: false }, //북경
+        { code: "Tokyo", label: "도쿄", selected: false }, 
+        { code: "Beijing", label: "북경", selected: false },
         { code: "Moscow", label: "모스크바", selected: false },
-        { code: "London", label: "런던", selected: false }, //델리, 민스크, 홍콩
+        { code: "London", label: "런던", selected: false }, //델리 Delhi, 민스크, 홍콩
+        { code: "Delhi", label: "델리", selected: false },
+        { code: "Minsk", label: "민스크", selected: false },
+        { code: "Hong Kong", label: "홍콩", selected: false },
         { code: "Yakutsk", label: "야크추크", selected: false },
       ],
     };
